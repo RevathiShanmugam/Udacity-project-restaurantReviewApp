@@ -128,7 +128,7 @@ nav h1 a {
   height: 35px;
   letter-spacing: 0;
   margin: 10px;
-  padding: 0 10px;
+  padding: 0 5px;
   width: 200px;
 }
 
@@ -174,7 +174,7 @@ nav h1 a {
   margin: 20px 0 10px;
 	padding: 0 20px;
   text-transform: uppercase;
-	height: 25px;
+	height: auto;
 }
 #restaurants-list p {
 	width: 55%;

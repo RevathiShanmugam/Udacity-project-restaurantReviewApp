@@ -1,6 +1,6 @@
 /*if the cache name object doesn’t exist,
 create one with the passed cache name*/
-const myCacheName;
+const myCacheName= 'myCacheName';
 const cacheFiles=[
 				'./',
 				'./index.html',
@@ -10,7 +10,6 @@ const cacheFiles=[
 				'./js/dbhelper.js',
 				'./js/main.js',
 				'./js/restaurant_info.js',
-				'./js/sw_register.js',
 				'./img/1.jpg',
 				'./img/2.jpg',
 				'./img/3.jpg',
@@ -25,7 +24,7 @@ const cacheFiles=[
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
-  		caches.open('myCacheName').then(function(cache) {
+  		caches.open(myCacheName).then(function(cache) {
   			return cache.addAll(cacheFiles);
       }
     ))
