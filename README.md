@@ -8,11 +8,10 @@ Restaurant Reviews project, is a responsive web application to view the reviews 
 1. Download or clone the repository on your machine https://github.com/RevathiShanmugam/Udacity-project-restaurantReviewApp
 2. Extract the .zip file
 3. Run npm install to install all project dependencies
-
 4. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
     * Command to check the version of Python you have: `python -V`
-    * Use the command based on the version installed in your computer
+  Use the following commands based on the version installed in your computer:
      * Python 2.x:  `python -m SimpleHTTPServer 8000` (or * some other port, if port 8000 is already in use)
      * Python 3.x: `python3 -m http.server 8000`
      * Python 3.x(for Windows systems): `python -m http.server 8000`
