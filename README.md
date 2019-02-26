@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Restaurant Reviews project, is a responsive web application to view the reviews of restaurants based on the preferred location. It has accessibility features included so it is also accessible for screen reader users. A service worker is added to the application to begin the process of creating a seamless offline experience for your users.
+Restaurant Reviews project, is a responsive web application to view the reviews of restaurants based on the preferred location. It has accessibility features included so it is also accessible for screen reader users. A service worker is added to the application to begin the process of creating a seamless offline experience for users.
 
 ## Project Purpose:
 
